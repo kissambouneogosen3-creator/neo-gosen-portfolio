@@ -46,6 +46,7 @@ const skillGroups = [
 ];
 
 const profileImage = "/images/profile/profile.png";
+const logoImage = "/branding/logo.png";
 
 const projects = [
   {
@@ -136,17 +137,24 @@ function App() {
       <div className="ambient ambient-left" />
       <div className="ambient ambient-right" />
 
-      <header className="topbar">
-        <a className="brand" href="#hero">
-          NEO-GOSEN
+      <div className="masthead">
+        <a className="logo-anchor" href="#hero" aria-label="NEO-GOSEN home">
+          <span className="brand-logo-wrap brand-logo-wrap-large">
+            <img src={logoImage} alt="NEO-GOSEN logo" className="brand-logo" />
+          </span>
         </a>
-        <nav className="nav">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+        <header className="topbar">
+          <a className="brand" href="#hero">
+            <span className="brand-text">NEO-GOSEN</span>
+          </a>
+          <nav className="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+      </div>
 
       <main>
         <section className="hero-section section" id="hero">
