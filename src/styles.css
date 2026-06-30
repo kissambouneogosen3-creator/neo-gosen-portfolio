@@ -177,6 +177,17 @@ h4 {
   color: var(--muted);
 }
 
+.language-toggle {
+  min-width: 48px;
+  min-height: 40px;
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  background: rgba(120, 184, 255, 0.1);
+  color: var(--accent-strong);
+  font-weight: 800;
+  cursor: pointer;
+}
+
 main {
   max-width: 1180px;
   margin: 0 auto;
@@ -273,6 +284,7 @@ h3 {
 
 .button:hover,
 .nav a:hover,
+.language-toggle:hover,
 .contact-links a:hover,
 .project-link:hover {
   transform: translateY(-1px);
