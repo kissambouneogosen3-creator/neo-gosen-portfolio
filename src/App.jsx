@@ -131,7 +131,7 @@ const projects = [
 const copy = {
   en: {
     nav: ["About", "Skills", "Projects", "Contact"],
-    homeLabel: "NEO-GOSEN home",
+    homeLabel: "NEO-GOSEN KISSAMBOU home",
     role: "Full Stack Software Developer",
     specialization: "Mobile • Web • Desktop Applications • Backend Systems • IoT • Embedded Electronics",
     hero:
@@ -164,7 +164,7 @@ const copy = {
   },
   fr: {
     nav: ["À propos", "Compétences", "Projets", "Contact"],
-    homeLabel: "Accueil NEO-GOSEN",
+    homeLabel: "Accueil NEO-GOSEN KISSAMBOU",
     role: "Développeur logiciel full stack",
     specialization:
       "Mobile • Web • Applications desktop • Systèmes backend • IoT • Électronique embarquée",
@@ -226,12 +226,12 @@ function App() {
       <div className="masthead">
         <a className="logo-anchor" href="#hero" aria-label={t.homeLabel}>
           <span className="brand-logo-wrap brand-logo-wrap-large">
-            <img src={logoImage} alt="NEO-GOSEN logo" className="brand-logo" />
+            <img src={logoImage} alt="NEO-GOSEN KISSAMBOU logo" className="brand-logo" />
           </span>
         </a>
         <header className="topbar">
           <a className="brand" href="#hero">
-            <span className="brand-text">NEO-GOSEN</span>
+            <span className="brand-text">NEO-GOSEN KISSAMBOU</span>
           </a>
           <nav className="nav">
             <a href="#about">{t.nav[0]}</a>
@@ -254,7 +254,7 @@ function App() {
         <section className="hero-section section" id="hero">
           <div className="hero-copy">
             <p className="eyebrow">{t.role}</p>
-            <h1>NEO-GOSEN</h1>
+            <h1>NEO-GOSEN KISSAMBOU</h1>
             <p className="hero-specialization">{t.specialization}</p>
             <p className="hero-description">{t.hero}</p>
             <div className="hero-actions">
@@ -272,9 +272,9 @@ function App() {
               <button
                 className="image-button"
                 type="button"
-                onClick={() => openImage(profileImage, "NEO-GOSEN profile")}
+                onClick={() => openImage(profileImage, "NEO-GOSEN KISSAMBOU profile")}
               >
-                <img src={profileImage} alt="NEO-GOSEN profile" className="profile-image" />
+                <img src={profileImage} alt="NEO-GOSEN KISSAMBOU profile" className="profile-image" />
               </button>
             </div>
           </div>
