@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const skillGroups = [
   {
     title: { en: "Programming Languages", fr: "Langages de programmation" },
-    items: ["JavaScript", "TypeScript"],
+    items: ["JavaScript", "TypeScript", "Python", "C", "C++"],
   },
   {
     title: { en: "Frontend", fr: "Frontend" },
@@ -396,7 +396,6 @@ function App() {
             <p>{t.contactText}</p>
             <div className="contact-links">
               <a href="tel:+21624309776">+216 24 309 776</a>
-              <a href="tel:+21621277388">+216 21 277 388</a>
               <a href="mailto:kissambouneogosen3@gmail.com">kissambouneogosen3@gmail.com</a>
             </div>
             <p className="final-message">{t.finalMessage}</p>
